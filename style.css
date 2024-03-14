@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+    background-image: url(https://static1-br.millenium.gg/articles/5/10/03/5/@/121599-meta-2022-orig-1-amp_main_media_schema-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    gap: 10px;
+    margin-left: 518px;
+    
+}
+.cell{
+    background-color: darkcyan;
+    border: 3px solid rgb(0, 0, 0);
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+
+}
+h1{
+    text-align: center;
+    border-radius: 20px;
+    background: white;
+    max-width: 350px;
+    margin-left: 528px;
+
+}
+footer{
+    background-color: rgb(9, 129, 138);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    margin-left: 560px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
